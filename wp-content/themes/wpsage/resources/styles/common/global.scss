@@ -1,0 +1,137 @@
+body {
+  @apply font-sans;
+}
+
+.brand {
+  @apply text-3xl font-medium text-indigo-500;
+}
+
+/*Wordpress theeme csss */
+img.custLogo, img.footerLogo{
+  width: 150px;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.max-w-3xl {
+  max-width: 100% !important;
+}
+.homeheader {
+  background-color: #fff;
+  padding: .5rem 0;
+}
+.headContent {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.headContent .wpmenucart-contents {
+  position: relative;
+}
+.headContent .wpmenucart-contents .cartcontents {
+  top: 0 !important;
+  left: -20px !important;
+}
+.woocommerce-products-header {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #4eae43;
+}
+.woocommerce-products-header h1 {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 700;
+}
+.wcProduct {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.wcProduct .products {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wcProduct .products .product {
+  padding: 2rem !important;
+  box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.wcProduct .products .product img {
+  border: none !important;
+}
+.wcProduct .products .product h2 {
+  font-size: 26px !important;
+  font-weight: 700;
+  line-height: initial;
+}
+.wcProduct .products .product .price {
+  font-size: 26px !important;
+  color: #000 !important;
+}
+.wcProduct .products .product .button {
+  background-color: #4eae43;
+  color: #fff;
+  font-weight: 400;
+  padding: .75rem 2rem;
+  border-radius: 0;
+}
+footer.footer {
+  background-color: #282828;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+footer.footer .footerLogo {
+  display: unset;
+}
+
+.frontPage .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+  background-color: #4eae43;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+  background-color: #4c9644;
+  color: #fff;
+}
+.frontPage .woocommerce-notices-wrapper {
+  padding-top: 20px;
+}
+
+.frontPage form.checkout.woocommerce-checkout input, .frontPage form.checkout.woocommerce-checkout select, .frontPage form.checkout.woocommerce-checkout textarea {
+  border: 1px solid #dadada;
+  padding: 5px 5px;
+}
+
+
+/*Thankyou page*/
+.frontPage .woocommerce-order p.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received {
+  padding: 16px 0px;
+}
+.frontPage .woocommerce-order ul li {
+  width: 10%;
+}
+/*End*/
+
+@media (max-width: 768px ) {
+  .wcProduct .products .product{
+    width: 100% !important;
+  }
+}
+
+
+
+/* End wordpress theme */
+
